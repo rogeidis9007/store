@@ -5,3 +5,4 @@
 3-view in http://localhost:5173
 
 # url to view example deploy
+https://6764ff7318bfa1e1e4e1d539--unique-zabaione-733c44.netlify.app/
