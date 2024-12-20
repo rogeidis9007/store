@@ -1,0 +1,34 @@
+.ant-select-selector {
+    border: 0px;
+}
+
+  /* adds 'n' after "Su"*/
+  .ant-picker-body table thead tr > th:nth-child(1) {
+    content: "n";
+}
+
+/* adds 'n' after "Mo"*/
+.ant-picker-body table thead tr > th:nth-child(2)::content {
+    content: "n";
+}
+
+/* ... etc., etc., ....*/
+.ant-picker-body table thead tr > th:nth-child(3)::before {
+    content: "e";
+}
+
+.ant-picker-body table thead tr > th:nth-child(4)::after {
+    content: "d";
+}
+
+.ant-picker-body table thead tr > th:nth-child(5)::after {
+    content: "u";
+}
+
+.ant-picker-body table thead tr > th:nth-child(6)::after {
+    content: "i";
+}
+
+.ant-picker-body table thead tr > th:nth-child(7)::after {
+    content: "t";
+}

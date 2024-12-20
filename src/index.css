@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+	font-weight: 400;
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body {
+	margin: 0rem;
+	background-color: white;
+}
+
+h1 {
+	font-size: 3.2em;
+	line-height: 1.1;
+}
+
+@font-face {
+	font-family: "Kaushan Script", cursive;
+	src: url("/fonts/Kaushan_Script/KaushanScript-Regular.ttf") format("truetype");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Jaini Purva";
+	src: url("/fonts/Jaini_Purva/JainiPurva-Regular.ttf") format("truetype");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Sail Regular";
+	src: url("/fonts/Sail/Sail-Regular.ttf") format("truetype");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Roboto Regular";
+	src: url("/fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Roboto Bold";
+	src: url("/fonts/Roboto/Roboto-Bold.ttf") format("truetype");
+	font-weight: 700;
+	font-style: normal;
+}

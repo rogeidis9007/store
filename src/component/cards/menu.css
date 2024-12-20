@@ -1,0 +1,9 @@
+.custom-scrollbar {
+	scrollbar-width: none;
+	-ms-overflow-style: none;
+	overflow: auto;
+}
+
+.custom-calendar [data-disabled="true"] {
+	opacity: 0;
+}

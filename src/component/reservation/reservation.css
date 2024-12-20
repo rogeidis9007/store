@@ -1,0 +1,4 @@
+.nextui-calendar .nextui-calendar__day--selected {
+	background-color: #000; /* Cambia esto al color que prefieras */
+	color: white; /* Color del texto para el día seleccionado */
+}

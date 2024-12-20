@@ -1,0 +1,5 @@
+.placeholder-bold::placeholder {
+	font-weight: bold;
+	font-size: 1.25rem;
+	color: black; /* Ajusta este valor según sea necesario */
+}
